@@ -22,7 +22,7 @@ public class Login extends baseclass{
 
 	@Test
 	public void loginWithValidCredintials() {
-
+               //login
 		driver.findElement(By.id("input-email")).sendKeys("qscwdv@gmail.com");
 		driver.findElement(By.id("input-password")).sendKeys("987poiu");
 		driver.findElement(By.xpath("//input[@value='Login']")).click();
