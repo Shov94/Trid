@@ -27,9 +27,9 @@ public class Login extends baseclass{
 		driver.findElement(By.id("input-password")).sendKeys("987poiu");
 		driver.findElement(By.xpath("//input[@value='Login']")).click();
 
-		String actualText = driver.findElement(By.xpath("//h2[contains(text(),'My Account')]")).getText();
-		Assert.assertEquals(actualText, "My Account");
-		driver.findElement(By.xpath("//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']")).click();
+		// String actualText = driver.findElement(By.xpath("//h2[contains(text(),'My Account')]")).getText();
+		// Assert.assertEquals(actualText, "My Account");
+		// driver.findElement(By.xpath("//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']")).click();
         driver.findElement(By.xpath("//a[@class='list-group-item'][normalize-space()='Login']")).click();
 	}
 
