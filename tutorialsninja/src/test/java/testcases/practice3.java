@@ -11,11 +11,7 @@ public class practice3 {
 	}
 	
 
-	@Test
-	public void studyqq() {
-		
-		System.out.println("Studying");
-	}
+	
 	
 	
 	
