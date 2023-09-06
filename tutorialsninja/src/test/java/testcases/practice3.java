@@ -9,5 +9,15 @@ public class practice3 {
 		
 		System.out.println("Studying");
 	}
+	
+
+	@Test
+	public void studyqq() {
+		
+		System.out.println("Studying");
+	}
+	
+	
+	
 
 }
